@@ -16,3 +16,7 @@ app.listen(process.env.PORT, () => {
 app.get("/", (req, res) => {
     res.send("Hola, este es el servidor en la branch de daniel");
 });
+
+app.get("/daniel", (req, res) => {
+    res.send("Hola, este es el endpoint de daniel");
+});
