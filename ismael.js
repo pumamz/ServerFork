@@ -3,3 +3,5 @@ function hello() {
   console.log(mensaje);
   return mensaje;
 }
+
+hello();
