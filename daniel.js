@@ -20,3 +20,8 @@ app.get("/", (req, res) => {
 app.get("/daniel", (req, res) => {
     res.send("Hola, este es el endpoint de daniel");
 });
+
+app.get("/daniel/:nombre", (req, res) => {
+    const { nombre } = req.params;
+    res.send(`Hola, ${nombre}, este es el endpoint de daniel`);
+});
