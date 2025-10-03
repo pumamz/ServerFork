@@ -13,3 +13,6 @@ app.listen(process.env.PORT, () => {
     console.log("Servidor en branch daniel escuchando en el puerto " + process.env.PORT);
     });
 
+app.get("/", (req, res) => {
+    res.send("Hola, este es el servidor en la branch de daniel");
+});
