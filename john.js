@@ -11,3 +11,4 @@ function multiplica(a, b) {
   return a * b;
 }
 console.log('Multiplica 4*5 =', multiplica(4,5));
+// Commit 5: fin del archivo john.js
