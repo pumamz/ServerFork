@@ -4,7 +4,7 @@ function hello() {
   return mensaje;
 }
 
-function goobye() {
+function goodbye() {
   var mensaje = "adios ismael";
   console.log(mensaje);
   return mensaje;
