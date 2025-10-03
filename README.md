@@ -1,57 +1,14 @@
-# Server Project
+# Practicas de Herramientas de Programacion
 
-Un servidor básico desarrollado con Node.js y Express.
+Esta primera parte contiene funciones basicas de saludo y despedida hacia el usario mi persona
 
-## 📋 Descripción
+## Funciones que contiene
 
-Este es un proyecto de servidor web básico que utiliza Express.js para crear una aplicación web simple. Incluye configuración con variables de entorno y está preparado para desarrollo con nodemon.
+- `hello( )`: Muestra un mensaje de saludo
+- `goodbye( )`: Muestra un mesaje de despedida
 
-## 🚀 Instalación
-
-1. Clona el repositorio
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-## 🔧 Configuración
-
-1. Copia el archivo `.env.example` a `.env`
-2. Configura las variables de entorno necesarias:
-   ```
-   PORT=3000
-   ```
-
-## 🏃‍♂️ Ejecución
-
-### Modo de desarrollo
+## Como usar
 
 ```bash
-npm run dev
+node ismael.js
 ```
-
-### Modo de producción
-
-```bash
-npm start
-```
-
-## 📁 Estructura del proyecto
-
-```
-Server/
-├── index.js          # Archivo principal del servidor
-├── ismael.js          # Módulo de utilidades
-├── package.json       # Configuración del proyecto
-├── .env              # Variables de entorno
-├── .env.example      # Ejemplo de variables de entorno
-└── README.md         # Este archivo
-```
-
-## 👤 Autor
-
-**Ismael** - [ismael2004-oo](https://github.com/ismael2004-oo)
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia ISC.
