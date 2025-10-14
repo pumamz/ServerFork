@@ -9,11 +9,11 @@ app.listen(process.env.PORT, () => {
   console.log("Primer commit");
 });
 
-app.listen(process.env.PORT, () => {
+app.get("/", (req, res) => {
     console.log("Servidor en branch daniel escuchando en el puerto " + process.env.PORT);
     });
 
-app.get("/", (req, res) => {
+app.get("/hola", (req, res) => {
     res.send("Hola, este es el servidor en la branch de daniel");
 });
 
