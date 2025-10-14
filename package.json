@@ -8,7 +8,11 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": ["express", "nodejs", "server"],
+  "keywords": [
+    "express",
+    "nodejs",
+    "server"
+  ],
   "author": "Ismael",
   "license": "ISC",
   "type": "commonjs",
